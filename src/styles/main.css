@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+  }
+  
+  .navbar {
+    background: #1e293b;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .container {
+    padding: 40px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,.08);
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .card span {
+    color: #2563eb;
+    font-weight: bold;
+  }
+  
+  .login-form {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .login-form input,
+  .login-form button {
+    padding: 10px;
+  }
+  
+  .footer {
+    background: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+  }
+  
